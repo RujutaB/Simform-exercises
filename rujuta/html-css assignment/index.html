@@ -39,74 +39,93 @@
 
         <!-- login -->
         <ul class="side-buttons">
-            <li class="login-button">Login</li>
-            <li class="more-button">More<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></li>
-            <li class="cart-button"><i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>Cart</li>
+            <a class="all-links-3" href="#"><li class="login-button">Login</li></a>
+            
+            <div class="dropdown">
+            <li class="more-button">
+                
+                    <a class="all-links-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      More <i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+            
+            </li>
+            </div>
+
+
+            <li class="cart-button"><a class="all-links-2" href="#"><i class="fas fa-shopping-cart" style="margin-right: 5px;"></i>Cart</a></li>
         </ul>
 
     </nav>
-
-    <!-- header-section -->
-    <section class="header">
+    </header>
+    <!-- category-section -->
+    <section class="header container">
         <div class="categories">
-            <img class="category-img" src="./images/top-offers.png">
-            <div class="category-names">Top Offers</div>
+            <a class="all-links" href="#"> <img class="category-img" src="./images/top-offers.png">
+            <div class="category-names"> Top Offers </a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/groceries.png">
-            <div class="category-names">Grocery</div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/groceries.png">
+            <div class="category-names">Grocery</a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/mobiles.png">
-            <div class="category-names">Mobiles</div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/mobiles.png">
+            <div class="category-names">Mobiles</a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/fashion.png">
-            <div class="category-names">Fashion<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/fashion.png">
+            <div class="category-names">Fashion<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/electronics.png">
-            <div class="category-names">Electronics<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/electronics.png">
+            <div class="category-names">Electronics<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/home.jpg">
-            <div class="category-names">Home<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/home.jpg">
+            <div class="category-names">Home<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/appliances.png">
-            <div class="category-names">Appliances<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/appliances.png">
+            <div class="category-names">Appliances<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/travel.png">
-            <div class="category-names">Travel</div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/travel.png">
+            <div class="category-names">Travel</a></div>
         </div>
 
         <div class="categories">
-            <img class="category-img" src="./images/beauty-toys.png">
-            <div class="category-names">Beauty, Toys & More<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></div>
+            <a class="all-links" href="#"><img class="category-img" src="./images/beauty-toys.png">
+            <div class="category-names">Beauty, Toys & More<i class="fa fa-angle-down" style="font-size:10px; margin-left: 5px;"></i></a></div>
         </div>
     </section>
-    </header>
+    
 
     <!-- Products -->
     <main>
     
     <!-- 1st-product-section -->
-        <div class="product-section">
-            <div class="deals-books">
-                Deals of the day <span class="time"><img width="24px" height="24px" src="./images/timer_a73398.svg"> 13:33:51 Left</span>
+
+
+        <section class="product-section-2 container-fluid">
+             <div class="deals-books">
+            Deals of the day <span class="time"><img width="24px" height="24px" src="./images/timer_a73398.svg"> 13:33:51 Left</span>
             </div>
-            <span><button class="view-all-button">VIEW ALL</button>
-            </span>
-           
-            <div class="product-array">
+            <span><button class="view-all-button"><a class="all-links-2" href="#">VIEW ALL</a></button></span>
+        </section>
+        <section class="product-section">       
+            <div class="product-array"> 
                 <!-- 1 -->
                 <ul class="product-card">
                     <img class="product-image" src="./images/watch.jpeg">
@@ -138,7 +157,7 @@
                 <!-- 5 -->
                 <ul class="product-card">
                     <img class="product-image" src="./images/metronaut.jpeg">
-                    <li class="product-name">Metronaut, Provogue & ...</li>
+                    <li class="product-name">T-shirts, Dresses ...</li>
                     <li class="upto-off">Upto 80%+Extra 10%Off</li>
                     <li class="grey-text">Jackets, dresses & more</li>
                 </ul>
@@ -156,23 +175,24 @@
                     <li class="upto-off">Flat 30% Off</li>
                     <li class="grey-text">Now at INR999</li>
                 </ul>
-            
-                <ul class="advertisement">
-                <img class="ad-image" src="images/advertisement.jpeg" width=181 height=195>
-                </ul>
             </div>
-        </div>
+            <div  class="advertisement">
+                
+                <img class="ad-image" src="images/advertisement.jpeg" width="151px" height="235px">
+                
+            </div>
+        </section>
 
 
      <!--2nd-product-section -->
-         <div class="product-section">
+         <section class="product-section-2 container-fluid">
            <div class="deals-books">
             Books and Musical Instruments
             <p class="grey-text">Shop Now!</p>
             </div>
-            <span><button class="view-all-button">VIEW ALL</button></span>
-         </div>  
-            <div class="product-array-2">
+            <span><button class="view-all-button"><a class="all-links-2" href="#">VIEW ALL</a></button></span>
+         </section>  
+            <section class="product-array-2 container-fluid">
                 <!-- 1 -->
                 <ul class="product-card">
                     <img class="product-image" src="./images/harmonium.jpeg">
@@ -222,11 +242,10 @@
                     <li class="upto-off">Starting at 1999</li>
                     <li class="grey-text">By Revel</li>
                 </ul>
-            </div>
+            </section>
 
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
